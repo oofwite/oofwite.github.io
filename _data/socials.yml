@@ -1,0 +1,19 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email_contact:
+  logo: fa-solid fa-envelope
+  title: Email
+  url: mailto:yc6990@nyu.edu
+github_profile:
+  logo: fa-brands fa-github
+  title: GitHub
+  url: https://github.com/oofwite
+linkedin_profile:
+  logo: fa-brands fa-linkedin
+  title: LinkedIn
+  url: https://www.linkedin.com/in/markchenyf
+orcid_profile:
+  logo: ai ai-orcid
+  title: ORCID
+  url: https://orcid.org/0009-0009-9006-3235
