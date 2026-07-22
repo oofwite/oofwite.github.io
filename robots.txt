@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://oofwite.github.io/sitemap.xml
