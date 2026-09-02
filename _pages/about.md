@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I am **Yifang (Mark) Chen (陈义方)**, a rising senior at [New York University Shanghai](https://shanghai.nyu.edu/), majoring in Computer Science with minors in Mathematics.
+Hi! I am **Yifang (Mark) Chen (陈义方)**, a senior at [New York University Shanghai](https://shanghai.nyu.edu/), majoring in Computer Science with a minor in Mathematics.
 
 I am currently a Research Assistant at the Data Intelligence and Reasoning Lab at NYU Shanghai, advised by Prof. [Qiaoyu Tan](https://qiaoyu-tan.github.io/index.html). I am also fortunate to be co-advised by Prof. [Jinyang Li](https://jinyangli.github.io/) on my research project.
 
