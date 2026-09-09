@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-**One Model, Many Graphs** has been accepted to **2026 EMNLP Main Conference**. See you in Budapest.
+**One Model, Many Graphs** has been accepted to **EMNLP 2026 Main Conference**. See you in Budapest.
