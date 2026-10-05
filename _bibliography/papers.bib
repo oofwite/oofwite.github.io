@@ -10,9 +10,9 @@
   eprint        = {2609.39777},
   archivePrefix = {arXiv},
   primaryClass  = {cs.LG},
-  url           = {https://arxiv.org/abs/2609.39777},
-  html          = {https://arxiv.org/abs/2609.39777},
   pdf           = {https://arxiv.org/pdf/2609.39777},
+  note          = {A benchmark of LLM-based multi-agent coordination for graph learning, showing that coordinating specialized graph-reasoning agents beats single-agent reasoning and that instance-adaptive specialist selection gives the best accuracy-efficiency trade-off.},
+  abstract      = {LLM-based multi-agent systems coordinate specialized reasoning through aggregation, interaction, and adaptive control, yet their potential for graph learning remains unexplored. Graph learning is a natural setting for such systems because useful evidence may arise from heterogeneous local, long-range, global structural, and semantic perspectives whose relevance varies across instances. We introduce GraphMAS, a systematic benchmark of multi-agent coordination for graph learning. GraphMAS builds a shared pool of graph reasoning specialists and organizes coordination along two dimensions, inter-agent interaction and runtime adaptivity, yielding four paradigms and seven representative coordination methods, evaluated under a unified protocol across seven text-attributed graphs, three domains, and two graph learning tasks. We find that heterogeneous graph perspectives are complementary, and that coordinating specialists improves over individual specialists and single-agent graph reasoning. However, richer inter-agent interaction does not reliably help, whereas instance-adaptive specialist selection yields the strongest accuracy-efficiency trade-off. We further show that coordination can be learned over a fixed specialist pool and transfers to held-out graphs.},
   preview       = {graphmas.png},
   selected      = {true}
 }
@@ -25,6 +25,8 @@
   year        = {2026},
   pdf         = {https://arxiv.org/pdf/2607.19128},
   code        = {https://github.com/Jo-eyang/OMG-VLM},
+  note        = {A single vision-language model, equipped with structure-aware graph adapters, that learns over text-, image-, and multimodal-attributed graphs and generalizes to unseen graphs and modality schemas.},
+  abstract    = {Vision-language models (VLMs) provide a unified representation space for textual and visual information, yet their potential as general-purpose backbones for graph-structured data remains largely unexplored. In practice, attributed graphs exhibit substantial modality heterogeneity: some graphs contain only textual node attributes, others only visual attributes, while still others provide both. Existing graph learning approaches are typically designed for fixed modality schemas, requiring separate models for different settings. We present OMG-VLM (One Model, Many Graphs with Vision-Language Models), a unified framework that leverages a pretrained VLM as a shared backbone and introduces structure-aware graph adapters that integrate neighborhood information while remaining compatible with the VLM's native embedding space. Extensive experiments across diverse domains show that OMG-VLM consistently outperforms state-of-the-art GNN- and LLM-based baselines on node classification and link prediction, while generalizing well to unseen graphs and varying modality schemas.},
   preview     = {omg-vlm.png},
   annotation  = {* Equal contribution.},
   selected    = {true}

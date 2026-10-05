@@ -9,11 +9,11 @@ last_name: Chen
 contact_note: >
   The best way to reach me is by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal academic website of Yifang (Mark) Chen (陈义方), an NYU Shanghai computer science student researching multimodal learning, structured data, and reasoning.
+  Personal academic website of Yifang (Mark) Chen (陈义方), an NYU Shanghai computer science student researching LLM agents, multi-agent systems, and graph learning.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Yifang Chen, Mark Chen, 陈义方, machine learning, multimodal learning, vision-language models, graph learning, NYU Shanghai
+keywords: Yifang Chen, Mark Chen, 陈义方, machine learning, LLM agents, multi-agent systems, multimodal learning, vision-language models, graph learning, NYU Shanghai, nyush
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.svg # image filename in /assets/img/
 
