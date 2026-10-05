@@ -8,7 +8,8 @@ profile:
   align: right
   image: yifang-chen.jpg
   image_circular: false # crops the image to make it circular
-  more_info:
+  more_info: >
+    <p>yc6990@nyu.edu<br><a href="/assets/pdf/yifang-chen-cv.pdf">CV (PDF)</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -28,16 +29,14 @@ Hi! I am **Yifang (Mark) Chen (陈义方)**, a senior at [New York University Sh
 
 I am currently a Research Assistant at the Data Intelligence and Reasoning Lab at NYU Shanghai, advised by Prof. [Qiaoyu Tan](https://qiaoyu-tan.github.io/index.html). I am also fortunate to be co-advised by Prof. [Jinyang Li](https://jinyangli.github.io/) on my research project.
 
-> **I am applying to PhD programs for Fall 2027.** If my interests overlap with your group, I would be glad to hear from you!
->
-> [Email](mailto:yc6990@nyu.edu) (yc6990@nyu.edu) · [CV (PDF)]({{ '/assets/pdf/yifang-chen-cv.pdf' | relative_url }})
+> **I am applying to PhD programs for Fall 2027.** If my interests fit your group, feel free to [email me](mailto:yc6990@nyu.edu).
 
 ## Research Interests
 
-- **Long-horizon LLM agents:** Agents that plan, search, and use tools over many steps, and that can tell when a task is harder than it first looked. I am interested in training them, largely with reinforcement learning, to decide when to keep going, change course, or stop.
-- **Efficient and trustworthy agents:** An agent that searches twelve times when two would do wastes compute, and one that stops too early gets the answer wrong. I want agents that spend effort where it matters and know when their evidence is enough, along with evaluations that measure cost and reliability, not just accuracy.
-- **Multi-agent systems:** How specialized agents should divide work, communicate, and combine their reasoning. In [GraphMAS](https://arxiv.org/abs/2609.39777), choosing the right specialists for each instance gave a better accuracy-cost trade-off than adding more interaction between agents. I want to understand when coordination actually helps.
-- **Graphs and structure for agents:** Much of what an agent works with is relational, from retrieved evidence to memory and tool outputs. Building on my graph learning work, including [OMG-VLM](https://arxiv.org/abs/2607.19128), I am interested in using graph structure as context, memory, or a tool that helps agents organize information and reason over it.
+- **Long-horizon LLM agents:** Agents that plan, search, and use tools over many steps, trained largely with reinforcement learning to decide when to keep going, change course, or stop.
+- **Efficient and trustworthy agents:** Spending effort where it matters, knowing when the evidence is enough, and evaluating cost and reliability alongside accuracy.
+- **Multi-agent systems:** How specialized agents divide work and coordinate, and when coordination actually helps, building on [GraphMAS](https://arxiv.org/abs/2609.39777).
+- **Graphs and structure for agents:** Using graph structure as context, memory, or a tool that helps agents organize and reason over information, extending my work on [OMG-VLM](https://arxiv.org/abs/2607.19128).
 
 ## Awards & Honors
 
@@ -49,5 +48,12 @@ I am currently a Research Assistant at the Data Intelligence and Reasoning Lab a
   h2 a[href="/news/"],
   h2 a[href="/publications/"] {
     text-transform: capitalize;
+  }
+
+  /* align the photo with the name row instead of starting below the subtitle */
+  @media (min-width: 768px) {
+    .post .profile {
+      margin-top: -6rem;
+    }
   }
 </style>
