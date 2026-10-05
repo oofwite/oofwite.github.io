@@ -33,10 +33,10 @@ I am currently a Research Assistant at the Data Intelligence and Reasoning Lab a
 
 ## Research Interests
 
-- **Long-horizon LLM agents:** Agents that plan, search, and use tools over many steps, trained largely with reinforcement learning to decide when to keep going, change course, or stop.
-- **Efficient and trustworthy agents:** Spending effort where it matters, knowing when the evidence is enough, and evaluating cost and reliability alongside accuracy.
+- **Long-horizon LLM agents:** Agents that plan, search, and use tools over many steps, and how reinforcement learning can teach them when to keep going, change course, or stop.
+- **Efficient and trustworthy search agents:** Knowing how much to search and when the gathered evidence is enough to answer, and evaluating cost and reliability alongside accuracy.
 - **Multi-agent systems:** How specialized agents divide work and coordinate, and when coordination actually helps, building on [GraphMAS](https://arxiv.org/abs/2609.39777).
-- **Graphs and structure for agents:** Using graph structure as context, memory, or a tool that helps agents organize and reason over information, extending my work on [OMG-VLM](https://arxiv.org/abs/2607.19128).
+- **Graphs and structure for agents:** Using graph structure as context, memory, or a tool that helps agents organize and reason over what they retrieve, extending my work on [OMG-VLM](https://arxiv.org/abs/2607.19128).
 
 ## Awards & Honors
 
