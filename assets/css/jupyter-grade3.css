@@ -361,7 +361,7 @@ textarea {
   width: 11px;
 }
 
-HTML,
+
 body,
 div,
 dt,
@@ -378,6 +378,7 @@ input,
 button,
 textarea,
 p,
+blockquote,
 th,
 td,
 span,
@@ -423,7 +424,7 @@ kbd {
   white-space: pre-wrap;
 }
 
-
+.well code,
 code {
   font-family: monospace, monospace;
   font-size: 11pt !important;
@@ -471,6 +472,16 @@ pre {
   -webkit-box-shadow: none;
   box-shadow: none;
   z-index: 10;
+}
+
+
+.well {
+  background-color: #e4e4e4;
+  border: 1px solid #e4e4e4;
+  color: #303030;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 
